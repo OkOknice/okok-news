@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "关注",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "list-detail": "/components/listDetail/listDetail",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "list-card": "/components/listCard/listCard",
+    "list-author": "/components/list-author/list-author"
+  }
+}

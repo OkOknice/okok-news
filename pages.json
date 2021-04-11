@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tapbar/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/tapbar/follow/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/tapbar/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/home-search/home-search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/home-label/home-label",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "标签管理",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/home-detail/home-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情信息",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail-comment/detail-comment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部评论",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/my_article/my_article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的文章",
+                "enablePullDownRefresh": false,
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedbcak/feedbcak",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "反馈意见",
+                "enablePullDownRefresh": false,
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F07373",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#666",
+		"selectedColor": "#f07373",
+		"backgroundColor": "#fff",
+		"list":[
+			{
+				"pagePath":"pages/tapbar/index/index",
+				"text":"首页",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/home-active.png"
+			},
+			{
+				"pagePath":"pages/tapbar/follow/follow",
+				"text":"关注",
+				"iconPath":"static/follow.png",
+				"selectedIconPath":"static/follow-active.png"
+			},
+			{
+				"pagePath":"pages/tapbar/my/my",
+				"text":"我的",
+				"iconPath":"static/my.png",
+				"selectedIconPath":"static/my-active.png"
+			}
+		]
+	}
+}

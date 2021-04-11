@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "list-detail": "/components/listDetail/listDetail",
+    "list-card": "/components/listCard/listCard",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  },
+  "component": true
+}

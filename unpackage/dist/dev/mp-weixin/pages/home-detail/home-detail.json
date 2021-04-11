@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "详情信息",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "comment-content": "/components/comment-content/comment-content",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "release": "/components/release/release",
+    "u-parse": "/components/gaoyia-parse/parse"
+  }
+}

@@ -1,0 +1,1 @@
+<scroll-view class="detail-scroll-view" scroll-y="true" data-event-opts="{{[['scrolltolower',[['loadMore',['$event']]]]]}}" bindscrolltolower="__e"><slot></slot></scroll-view>

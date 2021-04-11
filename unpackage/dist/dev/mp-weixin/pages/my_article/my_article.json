@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的文章",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "list-card": "/components/listCard/listCard"
+  }
+}
